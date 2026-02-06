@@ -9,7 +9,7 @@ Personal CV website built using HTML and CSS for Web Programming course.
 - Vercel
 
 ## Live Website
-https://your-vercel-link.vercel.app
+https://cv-aaiza-iqbal.vercel.app/
 
 ## Author
 Aaiza Iqbal  
