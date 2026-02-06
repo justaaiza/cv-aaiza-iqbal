@@ -47,6 +47,24 @@ body {
   color: white;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 18px;
+  background-color: #7af67c;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #43f46f;
+  transform: translateY(-2px);
+}
+
+
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
