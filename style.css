@@ -14,7 +14,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 2rem;
   background-color: #102719;
   color: white;
@@ -62,6 +62,46 @@ body {
 .btn:hover {
   background-color: #43f46f;
   transform: translateY(-2px);
+}
+
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  margin-left: auto;
+}
+
+.dark-mode {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+.dark-mode .section {
+  background-color: #1e293b;
+  color: #e5e7eb;
+}
+
+.dark-mode .section h2 {
+  color: #38bdf8;
+}
+
+.dark-mode .skills span {
+  background: #334155;
+  color: #e5e7eb;
+}
+
+.dark-mode .header {
+  background-color: #070a12;
+}
+
+.dark-mode .footer {
+  background-color: #070a12;
+}
+
+.dark-mode a {
+  color: #081e28;
 }
 
 
