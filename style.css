@@ -104,6 +104,42 @@ body {
   color: #081e28;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.dark-mode .contact-form input,
+.dark-mode .contact-form textarea {
+  background-color: #1e293b;
+  color: #e5e7eb;
+  border-color: #334155;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  max-width: 100%;
+  box-sizing: border-box;
+  max-height: 300px;
+  overflow: auto;
+}
+
+
 
 @media (max-width: 600px) {
   .header {
