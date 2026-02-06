@@ -52,11 +52,12 @@ body {
   margin-top: 1rem;
   padding: 10px 18px;
   background-color: #7af67c;
-  color: #0f172a;
+  color: #0f2a1a;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
   transition: all 0.3s ease;
+  border: 1.5px solid #102719;
 }
 
 .btn:hover {
@@ -104,6 +105,10 @@ body {
   color: #081e28;
 }
 
+.dark-mode .btn {
+  border-color: #e5e7eb;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -137,6 +142,12 @@ body {
   box-sizing: border-box;
   max-height: 300px;
   overflow: auto;
+}
+
+.contact-form button,
+.contact-form input[type="submit"] {
+  width: fit-content;
+  align-self: flex-start;
 }
 
 
